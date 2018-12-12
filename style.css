@@ -1,0 +1,227 @@
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  background-color: black;
+}
+
+.wrapper a {
+  color: white;
+  text-decoration: none;
+  transition: all linear;
+  font-family: 'raleway-semibold';
+  font-size: 35px;
+}
+
+
+.wrapper a:hover {
+  text-decoration: overline underline;
+}
+
+div {
+  margin: 0;
+}
+
+#Home {
+  background-image: url("img/Studio.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+
+.fade-in {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+to {
+  opacity: 1;
+  }
+
+}
+
+.image_page {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.image_page h1 {
+      font-size: 9em;
+      color: white;
+}
+
+
+#about{
+  background-color: mediumpurple;
+
+}
+
+.bio_page {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.bio_page h2{
+      font-family: apple chancery;
+      color: purple;
+      font-size: 4em;
+      text-align: center;
+
+}
+.bio_page h3{
+      font-family: apple chancery;
+      color: purple;
+      font-size: 1.8em;
+      text-align: center;
+}
+.bio_page h5 {
+  font-family: apple chancery;
+  font-size: 1.5em;
+  text-align: center;
+}
+.bio_page p {
+      font-size: 1em;
+      text-align: center;
+}
+.bio_info p {
+  font-size: 1em;
+  text-align: center;
+}
+
+
+
+.slideshow-image {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.slideshow-zoom{
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+  width: 80vw;
+  height: 80vh;
+}
+
+.slideshow-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+}
+
+
+#work {
+  background-image: url("img/Studio.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  .video_page {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding-top: 100px;
+  }
+
+.video_page h3{
+  color: white;
+  font-size: 2em;
+  font-family: apple chancery;
+}
+
+#live {
+  background-image: url("img/Studio.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.live_page {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.live_page h2{
+  font-family: apple chancery;
+  color: white;
+  font-size: 3em;
+  text-align: inherit;
+}
+
+
+#contact {
+  background-color: mediumpurple;
+}
+
+.contact_form {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 300px;
+}
+
+.contact_form form {
+  position: fixed;
+  padding-left: 400px;
+}
+
+.contact_form p {
+  position: fixed;
+  padding-left: 1100px;
+}
+
+.contact_form h5 {
+  position: fixed;
+  padding-left: 1100px;
+  padding-top: 50px;
+  font-size: 2em;
+}
+
+.contact_form h6 {
+  position: fixed;
+  padding-left: 720px;
+  padding-top: 300px;
+  font-size: 2.5em;
+}
+
+  /*background image*/
+#image-1{
+  background-image: url("img/Moon.jpg");
+}
+#image-2{
+  background-image: url("img/curtis.jpg");
+}
+#image-3{
+  background-image: url("img/PurpleMoon.png");
+}
+#image-4{
+  background-image: url('img/curtis2.jpg');
+}
+#image-5{
+  background-image: url('img/Studio2.jpg');
+}
